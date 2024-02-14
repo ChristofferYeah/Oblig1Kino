@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+                <label for="Epost">Epost</label>
+                <input class="form-control" type="text" id="Epost">
+        <div id="EpostValidation" style="color: red"></div>
+
+
+            <button onclick="registerForm()" class="btn btn-success" >Kjøp</button>
+
+
+            <h2>Alle Biletter</h2>
+            <div id="liste-biletter"></div>
+            <button onclick="deleteList()" class="btn btn-danger">Slett alle bilettene</button>
+
+
